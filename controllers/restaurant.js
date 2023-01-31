@@ -37,7 +37,7 @@ module.exports.restaurantList = function (req, res) {
               });
             } else {
               res.render("restaurant/restaurantList", {
-                title: "Restaurants",
+                title: "Grab A Table",
                 restaurantList: restaurantList,
                 cuisineList: cuisineList,
               });
